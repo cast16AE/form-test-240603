@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Auto-Focus</title>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            window.location.href = "https://eu.jotform.com/form/241473005191044";
+            setTimeout(function() {
+                var firstField = document.querySelector('input'); // Adjust the selector as needed
+                if (firstField) {
+                    firstField.focus();
+                }
+            }, 1000); // Adjust the timeout as necessary
+        };
+    </script>
+</body>
+</html>
